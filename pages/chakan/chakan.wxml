@@ -1,0 +1,15 @@
+<view class='text'>
+  <text>查看信息</text>
+</view>
+<view class='cc'>
+  <view class='board' wx:for="{{array}}">
+    <view class='board-item'>                                 <!--绑定信息各个数据，并加以显示-->
+      <view style='word-break:break-all'> <text >标题:{{item.tittle}}\nQQ：{{item.qq_number}}\n微信号：{{item.wx_number}}\n电话：{{item.phone_number}}\n内容：{{item.content}}</text></view>
+   </view>
+  </view>
+</view>
+
+
+<view>
+  <button class='btn' hover-class='btn-hover' bindtap='toast'>转到首页</button>
+</view>

@@ -1,0 +1,23 @@
+/* pages/fabu/fabu.wxss */
+/*.page_text{
+  color: #b3242a;
+  margin-top: 1mm;
+  font-size: 20px;
+}*/
+.section{
+  margin-top: 5px;
+}
+.btn{
+  width:80%;
+  background-color: #b3242a;
+  color:#fff
+}
+.text{
+  text-align: center;
+  color: #b3242a;
+  font-weight: bold;
+  font-size: 28px
+}
+.btn-hover{
+ background-color: #f00000;
+}

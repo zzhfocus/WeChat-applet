@@ -1,0 +1,42 @@
+/* pages/test/test.wxss */
+  .id{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+  .name{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+  .institute{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+  .subject{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.btn{
+  width: 90%;
+  background-color: #b3242a;
+  color: #fff
+}
+.section{
+  margin-top: 10px;
+}
+.text{
+  text-align: center;
+  color: #b3242a;
+  font-weight: 500px;
+  font-size: 18px
+}
+
+.btn-hover{
+ background-color: #f00000;
+}

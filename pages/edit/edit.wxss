@@ -1,0 +1,9 @@
+/* pages/edit/edit.wxss */
+.btn{
+  width: 90%;
+  background-color: #b3242a;
+  color: #fff
+}
+.btn-hover{
+ background-color: #f00000;
+}

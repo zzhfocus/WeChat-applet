@@ -1,0 +1,39 @@
+{
+  "pages":[
+    
+    "pages/shouye/shouye",
+    "pages/chakan/chakan",
+    "pages/fabu/fabu",
+    "pages/xinxi_geren/xinxi_geren",
+    "pages/test/test",
+    "pages/me/me",
+    "pages/edit/edit",
+    "pages/reeditname/reeditname"
+    
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#b3242a",
+    "navigationBarTitleText": "西电消息通",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar":{
+    "selectedColor":"#b3242a",
+    "backgroundColor":"#ffffff",
+    "borderStyle":"black",
+    "list":[{
+      "pagePath":"pages/shouye/shouye",
+      "text":"首页",
+      "iconPath":"pages/images/bar/zhuye1.png",
+      "selectedIconPath":"pages/images/bar/zhuye2.png"
+    },
+    {
+      "pagePath": "pages/me/me",
+      "text": "个人中心",
+      "iconPath": "/pages/images/bar/geren1.png",
+      "selectedIconPath": "/pages/images/bar/geren2.png"
+    }
+    ]
+  }
+}

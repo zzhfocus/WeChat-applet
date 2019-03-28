@@ -1,0 +1,18 @@
+
+
+<view class='label'>
+    <view class='label-item'> 
+              <button class='button1'   bindtap='cancel'>取消</button>
+              <button class='button2'  bindtap='confirm'>完成</button>
+    </view>
+</view>
+
+<view class='board'>
+  <view class='board-item' >
+      <input value="{{editName}}" bindinput='nameEdit' />
+      <button class='button'   bindtap="detIn" >
+           <image src='../images/me/det.png' mode='aspectFill'></image>
+      </button>
+
+  </view>
+</view>

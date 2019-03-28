@@ -1,0 +1,36 @@
+.img{
+  height: 128rpx;
+  width:128rpx;
+  margin-left: 320rpx;
+  margin-top: 20rpx;
+  border-radius: 50%;
+}
+.board{
+  display: flex;
+  flex-direction: column;
+}
+
+.board-item{
+  font-family: "微软雅黑";
+  font-weight: bold;
+  display: flex;
+  cursor: pointer;
+  flex: 1;
+  border: 1rpx solid #eee;
+  margin-top: 20rpx;
+  padding: 20rpx;
+}
+.board-item image{
+    width: 50rpx;
+    height: 50rpx;
+
+}
+
+.board-item text{
+    color: grey;
+    flex: 1;
+    width: 50rpx;
+    height: 50rpx;
+
+}
+

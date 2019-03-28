@@ -1,0 +1,24 @@
+<image src='../images/me/user.png'class='img'></image>
+<view class='board'>
+  <view class='board-item' bindtap='editname'>     <!--进行信息的绑定-->
+      <text>名字</text>
+      <text>{{name}}</text>
+      <image src='../images/me/point.png' mode='aspectFill'></image>
+  </view>
+    <view class='board-item' >
+      <text>学号</text>
+      <text>{{school_id}}</text>
+  </view>
+    <view class='board-item' >
+      <text>学院</text>
+      <text>{{institute}}</text>
+  </view>
+    <view class='board-item' >
+      <text>专业</text>
+      <text>{{subject}}</text>
+  </view>
+      <view class='board-item' bindtap='change'>
+      <text>查看已发布信息</text>
+      <image src='../images/me/point.png' mode='aspectFill'></image>
+  </view>
+</view>

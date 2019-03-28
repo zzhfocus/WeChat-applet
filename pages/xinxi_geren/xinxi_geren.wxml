@@ -1,0 +1,28 @@
+<!--pages/xinxi_geren/xinxi_geren.wxml-->
+<!--pages/chakan/chakan.wxml-->
+<view class='cc'>
+  <view style='margin:13px;'></view>
+   <view class='board' wx:for="{{array}}">
+    <view style='margin:13px;'></view>
+      <view class='board-item'>
+              <form bindsubmit='submit'>
+                 <button class='buttn'form-type='submit'>
+                  <image src='../images/me/choose.png' mode='aspectFill' ></image>
+                  </button>
+                   <input name='xx'disabled='ture'value='{{index+1}}.' ></input>
+                     <view style='word-break:break-all'><text>标题：{{item.tittle}}\nQQ：{{item.qq_number}}\n微信号：{{item.wx_number}}\n电话：{{item.phone_number}}\n内容：{{item.content}}</text></view>
+              </form>              
+    </view>
+  </view>
+</view>
+                <!--设置底部弹出窗口-->
+<action-sheet  hidden='{{actionSheetHidden}}' bindchange='listenerActionSheet' >
+  <action-sheet-item bindtap='edit'>编辑</action-sheet-item>
+  <action-sheet-item bindtap='cancel'>撤销</action-sheet-item>
+  <action-sheet-cancel>取消</action-sheet-cancel>
+</action-sheet>
+<!--<view style='margin:30px;'></view>-->
+<view>
+  <button class='btn' bindtap='toast' hover-class='btn-hover' style='z-index:50'>转到首页</button>
+</view>
+

@@ -1,0 +1,10 @@
+
+<!--<view>aspectFit </view>-->
+<image src="/pages/images/tupian1/first.png" class="img"></image>
+<view style='margin:13px;'></view>
+<view class='btn-area'>
+     <button class='btn' hover-class='btn-hover' bindtap='publish'>发布信息</button>
+     <view style='margin:10px;'></view>
+     <button class='btn' hover-class='btn-hover' bindtap='check'>查看信息</button>
+</view>
+

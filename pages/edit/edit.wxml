@@ -1,0 +1,32 @@
+<!--pages/fabu/fabu.wxml-->
+
+<form bindsubmit='formsubmit'>
+  <!--input-->
+<view class='section' >
+    <!--<text>标题 </text>-->
+      <view style='width:90%;margin:10rpx auto 0;'>
+        标题：<input name='tittle' placeholder='单行输入' value='{{tittle}}' style='margin-top:20rpx; border:1rpx solid #ddd; width:100%;border-radius: 4px;'/>
+      </view>
+
+    <!--<text>联系方式 </text>-->
+      <view style='width:90%;margin:10rpx auto 0;'>
+         联系方式：<input name='qq' class='sss' placeholder='QQ'  value='{{qq}}' style='margin-top:20rpx; border:1rpx solid #ddd; width:100%;border-radius: 4px;'/>
+        <input name='wx' class='sss' value='{{wx}}' placeholder='微信号' style='margin-top:20rpx; border:1rpx solid #ddd; width:100%;border-radius: 4px;'/>
+        <input name='phone' class='sss'value='{{phone}}' placeholder='电话' style='margin-top:20rpx; border:1rpx solid #ddd; width:100%;border-radius: 4px;'/>
+      </view>
+
+  <!--textarea-->
+    <!--<text>内容</text>-->
+      <view style='width:90%;margin:10rpx auto 0;'>
+         内容：<textarea name='content'  value='{{content}}' placeholder='多行输入' maxlength='-1' style='margin-top:20rpx;border:1rpx solid #ddd;width:100%;border-radius: 4px;'/>
+      </view>
+  <!--button-->
+    <view style='margin:20px;'></view>
+    <view class='btn-area' style='margin-top:55px;'>
+    <button class='btn'  hover-class='btn-hover' form-type='submit'>确认修改</button>
+     </view>
+</view>
+</form>
+
+
+

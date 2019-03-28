@@ -1,0 +1,21 @@
+<view class='text'>
+  <text>一次性填写，请谨慎!</text>
+</view>
+<form bindsubmit='schoolSubmit'>
+ <view style='margin:10px;'>
+    <view style='width:90%;margin:10rpx;'>
+    学号： <input class ="id" name="school_id" placeholder='请输入学号' bindinput='idInput' style='border:1rpx solid #ddd;width:100%;border-radius: 4px;' auto-height auto-focus='true'/>
+    姓名： <input class ="name" name='name' placeholder='请输入姓名' style='border:1rpx solid #ddd;width:100%;border-radius: 4px;' bindinput='nameInput' auto-height/>
+    学院： <input class ="institute" name='institute' placeholder='请输入学院' style='border:1rpx solid #ddd;width:100%;border-radius: 4px;' bindinput='insInput' auto-height/>
+    专业： <input class ="subject" name='subject' placeholder='请输入专业' style='border:1rpx solid #ddd;width:100%;border-radius: 4px;' bindinput='subInput' auto-height/>
+    </view>  
+</view>
+<view class='section' style='margin-top:60px;'>
+  <button formType="submit" hover-class='btn-hover' class='btn' >确定并提交</button>
+</view>
+</form>
+
+
+
+
+

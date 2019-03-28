@@ -1,0 +1,50 @@
+/* pages/xinxi_geren/xinxi_geren.wxss */
+/* pages/chakan/chakan.wxss */
+.board{
+  display: flex;
+  flex-direction: column;
+
+}
+.board-item{
+  display: flex;
+  font-family: 'Roboto';
+  flex-direction: column;
+  border-radius: 4px;
+  border:3.5rpx solid #b0252a;
+  font-size: 16px
+}
+
+.buttn{
+  height:25px;
+  background-color:#ffffff;
+}
+
+.board-item button::after{
+border: none;
+}
+.board-item image{
+    width: 50rpx;
+    height: 50rpx;
+    margin-left: 0px;
+    margin-top: 0rpx;
+}
+.btn{
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  color: #ffffff;
+  background-color: #b3242a;
+  border-bottom-left-radius:0px;
+  border-bottom-right-radius:0px  
+}
+
+
+.cc{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 60px
+}
+
+.btn-hover{
+ background-color: #f00000;
+}
